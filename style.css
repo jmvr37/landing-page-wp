@@ -866,7 +866,7 @@ object {
         .content-area-front .site-main .content-section-sheet .btn-container {
           padding-top: 10px; } }
       .content-area-front .site-main .content-section-sheet .btn-container button {
-        border: 1px solid;
+        border: 1px solid black;
         border-radius: 3px;
         background: black;
         color: white;
@@ -894,10 +894,11 @@ object {
     background-color: tan;
     width: 100%; }
     .content-area-front .site-main .form .nf-form-cont .nf-form-title h3 {
-      margin-left: 52px;
+      margin-left: 36px;
       margin-bottom: 0;
       padding-top: 10px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      font-size: 28px; }
   .content-area-front .site-main .form nf-fields-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -925,7 +926,9 @@ object {
       background: black !important;
       -webkit-box-shadow: none;
               box-shadow: none;
-      padding: 5px 50px; }
+      padding: 5px 50px;
+      font-size: 22px;
+      font-weight: bold; }
       @media (max-width: 600px) {
         .content-area-front .site-main .form nf-fields-wrap #nf-field-12 {
           margin-left: 45px; } }
@@ -1024,7 +1027,7 @@ object {
   padding-top: 50px;
   padding-bottom: 20px; }
   .content-area-front .btn-container button {
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 3px;
     background: black;
     color: white;
