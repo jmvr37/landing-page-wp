@@ -761,7 +761,9 @@ object {
       position: relative; }
       @media (max-width: 600px) {
         .site-footer .flex-header .title-footer .initials {
-          font-size: 53px; } }
+          font-size: 53px;
+          bottom: -1px;
+          margin-top: 10px; } }
     .site-footer .flex-header .title-footer p {
       color: #fff;
       font-size: 24px;
@@ -771,7 +773,8 @@ object {
       bottom: 93px; }
       @media (max-width: 600px) {
         .site-footer .flex-header .title-footer p {
-          font-size: 20px; } }
+          font-size: 20px;
+          bottom: 70px; } }
     .site-footer .flex-header p {
       color: white;
       font-size: 32px;
@@ -779,7 +782,8 @@ object {
       font-weight: 100; }
       @media (max-width: 600px) {
         .site-footer .flex-header p {
-          font-size: 20px; } }
+          font-size: 20px;
+          bottom: 70px; } }
 
 .content-area-front .site-main {
   background-color: #ffff; }
