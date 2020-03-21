@@ -822,7 +822,8 @@ object {
           margin-left: 20px; } }
       .content-area-front .site-main .text-container .sub-title h2 {
         font-weight: lighter;
-        font-size: 32px; }
+        font-size: 32px;
+        margin-top: 0; }
         @media (max-width: 600px) {
           .content-area-front .site-main .text-container .sub-title h2 {
             font-size: 14px; } }
@@ -851,14 +852,25 @@ object {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      padding-bottom: 60px; }
+      padding-bottom: 60px;
+      border-bottom: 1px solid; }
       @media (max-width: 600px) {
         .content-area-front .site-main .content-section-sheet .text-container-paragraph {
           padding-bottom: 10px; } }
-      @media (max-width: 600px) {
-        .content-area-front .site-main .content-section-sheet .text-container-paragraph h2 {
-          font-size: 12px;
-          margin-bottom: 0px; } }
+      .content-area-front .site-main .content-section-sheet .text-container-paragraph h2 {
+        margin-bottom: 0;
+        font-size: 22px; }
+        @media (max-width: 600px) {
+          .content-area-front .site-main .content-section-sheet .text-container-paragraph h2 {
+            font-size: 12px;
+            margin-bottom: 0px; } }
+      .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title {
+        margin: 0;
+        margin-left: 70px; }
+        .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title h2 {
+          margin-top: 0px;
+          margin-bottom: 30px;
+          font-size: 22px; }
     .content-area-front .site-main .content-section-sheet .btn-container {
       padding-top: 50px;
       padding-bottom: 20px; }
@@ -981,7 +993,8 @@ object {
   .content-area-front .content-sheet .head-title {
     margin-left: 14%;
     margin-top: 5px;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 50px; }
     @media (max-width: 600px) {
       .content-area-front .content-sheet .head-title {
         margin-left: 14%;
@@ -1011,7 +1024,8 @@ object {
       margin-left: 20px; } }
   .content-area-front .sub-title h2 {
     font-weight: lighter;
-    font-size: 32px; }
+    font-size: 32px;
+    margin-bottom: 0px; }
     @media (max-width: 600px) {
       .content-area-front .sub-title h2 {
         font-size: 11px; } }
