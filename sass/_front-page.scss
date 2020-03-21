@@ -1,0 +1,280 @@
+.content-area-front {
+  .site-main {
+    background-color: #ffff;
+    .entry-content {
+      margin-top: 0;
+    }
+    .text-container {
+      max-width: 100%;
+      margin: 30px 14%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid #f1dc9e;
+      padding-bottom: 60px;
+      @include mobile {
+        padding-bottom: 30px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 32px;
+        @include mobile {
+          font-size: 16px;
+        }
+      }
+
+      .sub-title {
+        margin: 0;
+        margin-left: 70px;
+        @include mobile {
+          margin-left: 20px;
+        }
+        h2 {
+          font-weight: lighter;
+          font-size: 32px;
+          @include mobile {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .content-section {
+      background-color: #f1dc9e;
+      width: 100%;
+      padding-top: 40px;
+      @include mobile {
+        padding-top: 0px;
+      }
+    }
+    .content-section-sheet {
+      background-color: #f1dc9e;
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 12px;
+
+      .text-container-paragraph {
+        max-width: 100%;
+        margin: 0 14%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+        @include mobile {
+          padding-bottom: 10px;
+        }
+        h2 {
+          @include mobile {
+            font-size: 12px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      .btn-container {
+        padding-top: 50px;
+        padding-bottom: 20px;
+
+        @include mobile {
+          padding-top: 10px;
+        }
+        button {
+          border: 1px solid;
+          border-radius: 3px;
+          background: black;
+          color: white;
+          font-size: 14px;
+          line-height: 1;
+          padding: 0.6rem 6.5rem 0.4rem;
+          box-shadow: none;
+          text-shadow: none;
+          font-weight: bold;
+
+          @include mobile {
+            border: 1px solid;
+            border-radius: 3px;
+            background: black;
+            color: white;
+            line-height: 1.5;
+            font-size: 9px;
+            padding: 0.6rem 0.5rem 0.4rem;
+            box-shadow: none;
+            text-shadow: none;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .form {
+      .nf-form-cont {
+        background-color: tan;
+        width: 100%;
+
+        .nf-form-title {
+          h3 {
+            margin-left: 52px;
+            margin-bottom: 0;
+            padding-top: 10px;
+            margin-top: 0px;
+          }
+        }
+      }
+      nf-fields-wrap {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        @include mobile {
+          flex-direction: column;
+        }
+
+        .nf-field-element {
+          margin-left: 10px;
+          @include mobile {
+            width: 80%;
+          }
+        }
+        .ninja-forms-field {
+          margin-left: 20px;
+        }
+
+        #nf-field-12 {
+          background: black !important;
+          box-shadow: none;
+          padding: 5px 50px;
+
+          @include mobile {
+            margin-left: 45px;
+          }
+        }
+      }
+      h2 {
+        margin: 0 18%;
+      }
+    }
+
+    .main-text-container {
+      max-width: 100%;
+      margin: 69px 25%;
+      @include mobile {
+        max-width: 100%;
+        margin: 50px 15%;
+      }
+
+      p {
+        font-size: 21px;
+        line-height: 0.5;
+        @include mobile {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        .italic {
+          font-style: italic;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  .content-article {
+    background-color: #6c5f5a;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .content-sheet {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 12px;
+    box-shadow: 0 -11px 6px -5px #333;
+
+    .text-container-sheet {
+      max-width: 100%;
+      margin: 0 14%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+    .head-title {
+      margin-left: 14%;
+      margin-top: 5px;
+      font-size: 18px;
+
+      @include mobile {
+        margin-left: 14%;
+        margin-top: 5px;
+        font-size: 9px;
+      }
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5em;
+    @include mobile {
+      font-size: 12px;
+      line-height: 1.5em;
+    }
+  }
+  h1 {
+    margin: 0;
+    font-size: 32px;
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+
+  .sub-title {
+    margin: 0;
+    margin-left: 70px;
+    @include mobile {
+      margin-left: 20px;
+    }
+
+    h2 {
+      font-weight: lighter;
+      font-size: 32px;
+
+      @include mobile {
+        font-size: 11px;
+      }
+    }
+  }
+  .content-text {
+    text-align: justify;
+  }
+  .italic {
+    font-style: italic;
+    font-weight: 500;
+  }
+  .btn-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    button {
+      border: 1px solid;
+      border-radius: 3px;
+      background: black;
+      color: white;
+      font-size: 14px;
+      line-height: 1;
+      padding: 0.6rem 6.5rem 0.4rem;
+      box-shadow: none;
+      text-shadow: none;
+      font-weight: bold;
+      @include mobile {
+        border: 1px solid;
+        border-radius: 3px;
+        background: black;
+        color: white;
+        line-height: 1.5;
+        font-size: 9px;
+        padding: 0.6rem 0.5rem 0.4rem;
+        box-shadow: none;
+        text-shadow: none;
+        font-weight: bold;
+      }
+    }
+  }
+}
