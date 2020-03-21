@@ -867,10 +867,16 @@ object {
       .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title {
         margin: 0;
         margin-left: 70px; }
+        @media (max-width: 600px) {
+          .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title {
+            margin-left: 20px; } }
         .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title h2 {
           margin-top: 0px;
           margin-bottom: 30px;
           font-size: 22px; }
+          @media (max-width: 600px) {
+            .content-area-front .site-main .content-section-sheet .text-container-paragraph .sub-title h2 {
+              font-size: 12px; } }
     .content-area-front .site-main .content-section-sheet .btn-container {
       padding-top: 50px;
       padding-bottom: 20px; }
@@ -999,7 +1005,8 @@ object {
       .content-area-front .content-sheet .head-title {
         margin-left: 14%;
         margin-top: 5px;
-        font-size: 9px; } }
+        font-size: 9px;
+        margin-bottom: 30px; } }
 
 .content-area-front p {
   font-size: 18px;
@@ -1021,11 +1028,13 @@ object {
   margin-left: 70px; }
   @media (max-width: 600px) {
     .content-area-front .sub-title {
-      margin-left: 20px; } }
+      margin-left: 20px;
+      font-size: 12px; } }
   .content-area-front .sub-title h2 {
     font-weight: lighter;
     font-size: 32px;
-    margin-bottom: 0px; }
+    margin-bottom: 40px;
+    margin-top: 0px; }
     @media (max-width: 600px) {
       .content-area-front .sub-title h2 {
         font-size: 11px; } }
