@@ -720,7 +720,8 @@ object {
       top: 80px; }
       @media (max-width: 600px) {
         .site-header .flex-header .title-header p {
-          font-size: 20px; } }
+          font-size: 20px;
+          margin-bottom: 10px; } }
     .site-header .flex-header p {
       color: white;
       font-size: 24px;
