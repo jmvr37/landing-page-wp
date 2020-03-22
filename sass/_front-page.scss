@@ -1,8 +1,50 @@
+// front-page styling
+
 .content-area-front {
   .site-main {
     background-color: #ffff;
     .entry-content {
       margin-top: 0;
+    }
+    .text-container-form {
+      max-width: 100%;
+      margin-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @include mobile {
+        max-width: 100%;
+        margin-bottom: 20px 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 30px;
+        text-align: center;
+      }
+      p {
+        margin: 0px;
+        font-size: 23px;
+        @include mobile {
+          font-size: 15px;
+        }
+        .italic {
+          font-style: italic;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .text1 {
+      max-width: 100%;
+      margin: 30px 14%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 1px solid #f1dc9e;
+      padding-bottom: 60px;
     }
     .text-container {
       max-width: 100%;
@@ -127,8 +169,8 @@
 
     .form {
       .nf-form-cont {
-        background-color: tan;
-        width: 100%;
+        background-color: #f1dc9e;
+        width: 105%;
 
         .nf-form-title {
           h3 {
@@ -137,6 +179,10 @@
             padding-top: 10px;
             margin-top: 0px;
             font-size: 28px;
+            @include mobile {
+              font-size: 16px;
+              margin-left: 0px;
+            }
           }
         }
       }
@@ -167,7 +213,7 @@
           font-weight: bold;
 
           @include mobile {
-            margin-left: 45px;
+            margin-left: 20px;
           }
         }
       }

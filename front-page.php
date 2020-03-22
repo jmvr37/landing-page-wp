@@ -16,23 +16,20 @@
 </div>
 </div>
 
-<div class="main-container">
 
-    <div class="main-text-container">
+<div class="main-container">
+    <div class="text-container-form">
     <p> <span class="italic">WITHOUT</span> Low Interest Government Bonds and Blue Chip Stocks,</p>
     <p>Absurdly Risky Penny Stocks, all while enjoying a Tax Deduction!</p>
-    </div>
+  
+</div>
 
-    <div class="main-text-container">
-
+    <div class="text-container-form">
 <div class="form">
         <?php echo do_shortcode('[ninja_form id=3]') ?>
             </div>
-
-            
 </div>
-
-     
+</div>
 
 
 
@@ -86,8 +83,8 @@ help you get 8% annual interest on your RRSP savings and save big on taxes.</p>
 <div class="btn-container">
 <button>YES! I'M READY TO EARN 8% ANNUAL INTEREST RETURNS</button></div>
 </div>
-</div>
-</div>
+    </div>
+        </div>
 
 <div class="content-section">
 <div class="content-section-sheet">
@@ -135,9 +132,9 @@ or if I fail to help you avoid the risk of the stock market, then I promise to l
 <button>SEND ME THE "TRICITY MORTGAGE INVESTMENT FUND" DETAILS!</button></div>
 
 </div>
-</div>
-</div>
-</div>
+  </div>
+    </div>
+        </div>
 
 
          </main><!-- #main -->
