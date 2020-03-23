@@ -1,6 +1,6 @@
-# RED Starter
+# Wiggle Wp landing page
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A single WordPress landing page, forked from Underscores.
 
 ## Installation
 
